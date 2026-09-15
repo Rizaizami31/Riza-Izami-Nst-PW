@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 - Formulir</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Formulir Pendaftaran</legend>
+
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="jurusan">Jurusan:</label>
+            <select id="jurusan" name="jurusan">
+                <option value="">--Pilih jurusan--</option>
+                <option value="TI">Teknologi Informasi</option>
+                <option value="SI">Sistem Informasi</option>
+            </select>
+
+            <div class="checks">
+                <label style="margin-top: 1em;">Jenis Kelamin:</label>
+                <label><input type="radio" name="jk" value="L"> Laki-laki</label>
+                <label><input type="radio" name="jk" value="P"> Perempuan</label>
+
+                <label style="margin-top: 1em;">Hobi:</label>
+                <label><input type="checkbox" name="hobi" value="coding"> Coding</label>
+                <label><input type="checkbox" name="hobi" value="gaming"> Gaming</label>
+                <label><input type="checkbox" name="hobi" value="makeup"> Makeup</label>
+                <label><input type="checkbox" name="hobi" value="shopping"> Shopping</label>
+            </div>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat rumah"></textarea>
+
+            <div style="margin-top: 1em;">
+                <input type="submit" value="Kirim data">
+                </div>
+        </fieldset>
+    </form>
+
+
+
+
+    
+</body>
+</html>
