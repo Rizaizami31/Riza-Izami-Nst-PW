@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Aritmatika Sederhana</title>
+</head>
+<body>
+
+    <form name="formKalkulator">
+    <table style="border: 1px solid black; border-collapse: collapse; padding: 10px;" cellpadding="5">
+        <tr>
+            <td>Input Bilangan 1</td>
+            <td><input type="text" name="bil1" size="30"></td>
+        </tr>
+        <tr>
+            <td>Input Bilangan 2</td>
+            <td><input type="text" name="bil2" size="30"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+
+                <button type="button" onclick="hitung('+')">+</button>
+                <button type="button" onclick="hitung('-')">-</button>
+                <button type="button" onclick="hitung('*')">x</button>
+                <button type="button" onclick="hitung('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Output</td>
+            <td><input type="text" name="hasil" size="30" readonly></td>
+        </tr>
+    </table>
+    </form>
+
+    <script>
+        function hitung(operator) {
+            let b1 = Number(document.formKalkulator.bil1.value);
+            let b2 = Number(document.formKalkulator.bil2.value);
+            let total = 0;
+
+            switch (operator) {
+                case '+':
+                    total = b1 + b2;
+                    break;
+                case '-':
+                    total = b1 - b2;
+                    break;
+                case '*':
+                    total = b1 * b2;
+                    break;
+                case '/':
+                    total = b1 / b2;
+                    break;
+            
+            }
+
+            document.formKalkulator.hasil.value = total;
+        }
+    </script>
+
+    
+        
+    
+</body>
+</html>
