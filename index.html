@@ -3,57 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Belajar Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-<table border="1" width="100%" cellpadding="10" cellspacing="0"
-<tr>
-    <td colspan="2" align="center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjmCnsb5kvOnNTfF8Tc_G8rckENON2nSpcs2ul4bjKNoajcMLyI_DT_8&s=10" alt="Dubai Chewy Cookie" width="30%" height="30%" style="object-fit: cover;">"
-        <h1><u>Dubai Chewy Cookie</u></h1>
-    </td>
-</tr>
-<tr>
-    <td colspan="2" align="center">
-        <a href="https://share.google/1pTILx4AOPsEVHEKf">Website Dubai Chewy Cookie</a></th>
-    </td>
-</tr>
-<tr valign="top">
-    <td width="30%"
-    <h3><u>Menu Rasa</u></h3>
-    <ul>
-        <li><b>Dubai Chewy Pistachio</b></li>
-        <li><b>Dubai Chewy Nutella</b></li>
-        <li><b>Dubai Chewy Lotus</b></li>
-        <li><b>Dubai Chewy Pistachio Ube</b></li>
-        <li><b>Dubai Chewy Matcha</b></li>
-        <li><a href="tugas2.html">Tugas 2</a></li>
-        <li><a href="tugas3.html">Tugas 3</a></li>
-    </ul>
-</td>
-<td width="30%"
-<article>
-    <h2>Welcome to <i>Dubai Chewy Cookie</i></h2>
-    <p>
-        Sajikan kelezatan mewah khas <b>Dubai</b> di setiap gigitan.
-        Dubai Chewy kami di buat dengan adonan yang <i>chewy</i> di padukan dengan <i>kunafa</i> yang renyah dan juga gurih serta di balur dengan lelehan selai premium.
-        </p>
-        <tr>
-            <td colspan="2" align="center">
-                <p>
-                    <small>
-                        &copy; 2026 <b>Dubai Chewy Cookie</b>| <i>made by:</i> <b>Riza Izami Nst</b> NIM:<b>261402120</b> <br>
-                        Prodi TI - Universitas Sumatera Utara | Contact: <i>izamiyale6@gmail.com</i>
-                    </small>
-                </p>
-            </td>
-        </tr>
+    <section>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="logoproweb.png" alt="Logo Proweb" height="70">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tugas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="tugas1.html">Tugas 1</a></li>
+            <li><a class="dropdown-item" href="tugas2.html">Tugas 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="tugas3.html">Tugas 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Hubungi</a>
+        </li>
+      </ul>
+      
+      <div class="d-flex gap-2 ms-2">
+        <button class="btn btn-outline-success" type="button">Daftar</button>
+        <button class="btn btn-primary" type="button">Masuk</button>
+      </div>
+    </div>
+  </div>
+</nav>
+        <div class="row">
+        <div class="col align-self-center">
+            <h1 style="font-family:lobster,cursive">Hai!<br>Selamat Datang di Proweb</h1>
+            <p class="mt-3 mb-4">
+                Belajar pemograman web mulai dari HTML, CSS, Javascript, PHP, MySQL, Bootstrap.
+            </p>
+            <a href="#" class="btn btn-success">Mulai Belajar</a>
+            </div>
+             <div class="col d-none d-lg-block d-xl-block">
+            <img src="images/kookie css.jpg" alt="" width="700"/>
+        </div>
+        </div>
+    </div>
+    <div class="row my-5">
 
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="images/clean-makeup-look.jpg.jpeg" class="card-img-top" alt="Berita 1">
+          <div class="card-body">
+            <h5 class="card-title">Apa itu Clean Girl Makeup Look?</h5>
+            <p class="card-text">Gaya makeup ala gen z yang viral karena tipe makeupnya itu seperti
+              menonjolkan kulit yang sehat,flawless,keliatan natural,glowing,dan terlihat seperti tidak
+              makeup.
+            </p>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      
 
-    </ul>
-</tr>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="images/prince-abdul wakeel.jpg.jpeg" class="card-img-top" alt="Berita 2">
+          <div class="card-body">
+            <h5 class="card-title">Duli Yang Teramat Mulia Paduka Seri Pengiran Muda 'Abdul Wakeel Ibni Kebawah 
+              Duli Yang Maha Mulia Paduka Seri Baginda Sultan Haji Hassanal Bolkiah Muizzaddin Waddaulah</h5>
+            <p class="card-text">Pangeran Abdul Wakeel adalah putra kesebelas dari Sultan Brunei Darussalam, Sultan Hassanal Bolkiah,
+               hasil dari pernikahan ketiganya dengan mantan jurnalis asal Malaysia, Azrinaz Mazhar Hakim. Lahir pada 1 Juni 2006 di Bandar Seri Begawan,
+                sang pangeran saat ini menempati urutan keenam dalam garis suksesi takhta Kesultanan Brunei.</p>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="images/kunafa-pistachio.jpg.jpeg" class="card-img-top" alt="Berita 3">
+          <div class="card-body">
+            <h5 class="card-title">Kenapa aku suka kali kunafa pistachio?</h5>
+            <p class="card-text">Karena kunafa nya yang renyah dan gurih di mix sama
+              selai pistachionya itu adalah kombinasi yang paling sempurna.Ada rasa manis, 
+              gurih,asin semuanya balance loveeee kaliiii.</p>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
 
+    </div>
+      
 
+    </div>
+    </section>
+
+<script src="js/bootstrap.bundle.js"></script>
+    
 </body>
 </html>
